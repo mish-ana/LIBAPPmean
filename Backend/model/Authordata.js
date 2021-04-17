@@ -9,17 +9,17 @@ mongoose.connect("mongodb+srv://Anjali_Peter:anju_mlab@libapp.ggjw4.mongodb.net/
 // create Schema
 const Schema = mongoose.Schema;
 
-// define Schema structure for a book
-const BookSchema = new Schema({
-    title : String,
+// define Schema structure for an author
+const AuthorSchema = new Schema({
     author : String,
+    book : String,
     genre : String,
     image : String,
     about : String
 });
 
 // create model
-var Bookdata = mongoose.model("bookdata",BookSchema);
+var Authordata = mongoose.model("authordata",AuthorSchema);
 
 // export model
-module.exports = Bookdata;
+module.exports = Authordata;
