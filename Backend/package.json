@@ -11,7 +11,7 @@
     "type": "git",
     "url": "MeanLibApp"
   },
-  "author": "Anjali Peter",
+  "author": "mishana mohammed",
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.19.0",
